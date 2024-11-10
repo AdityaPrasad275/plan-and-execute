@@ -26,6 +26,9 @@ TAVILY_API_KEY=tvly-
 
 (and pray to god it works 🤞)
 
+# Demo
+The video demo for this is availaible in this [drive link](https://drive.google.com/file/d/1tqtUk7SrNA7fPJeS3e0pNCasEqBOrVAh/view?usp=sharing) and also in this repo too
+
 # what got left
 - Neo4j graph databse backing for memory was very tricky to implement even with ongoing dependcy issues. I have left it for now because I felt for a  small test case like this, a string solution for memory works good enough
 - Multiple agents couldnt be used persay. One agent and one tool callign is utilizied and it handles the work fairly decently. Tho I initially startedd with planner architecture in langgraph but I couldnt make it work, so settled to this (solve an easier problem)
